@@ -1,4 +1,26 @@
 .plano-de-fundo {
    background-image: url(img/fundo.jpg);
    min-height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
+
+h1 {
+   font-size: 3rem;
+   margin-bottom: 2rem;
+}
+
+.sobre-mim {
+   position: absolute;
+   color: white;
+   text-align: center;
+   width: 70vw;
+}
+
+.sobre-mim p {
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+
+
