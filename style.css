@@ -1,3 +1,7 @@
+html {
+   font-family: 'Josefin Sans', sans-serif;
+}
+
 .plano-de-fundo {
    background-image: url(img/fundo.jpg);
    min-height: 100vh;
@@ -5,22 +9,42 @@
    background-size: cover;
 }
 
-h1 {
+.sobre-mim h1 {
+   margin-top: 1rem;
    font-size: 3rem;
-   margin-bottom: 2rem;
+   margin-bottom: 1.5rem;
 }
 
 .sobre-mim {
    position: absolute;
+   margin: 0 25%;
    color: white;
    text-align: center;
-   width: 70vw;
 }
 
 .sobre-mim p {
-   font-size: 1.5rem;
+   font-size: 1.2rem;
    text-align: center;
+   margin-bottom: 1rem;
+   line-height: 2rem;
 }
+
+.foto-e-redes-sociais {
+   position: relative;
+}
+
+.foto-perfil {
+   position: absolute;
+   margin-top: 22%;
+   border-radius: 75px;
+   width: 150px;
+   height: 150px;
+   left: 45%;
+}
+
+/* Vê se conserta a distância da foto e parágrafos, não está responsivo*/
+
+
 
 
 
