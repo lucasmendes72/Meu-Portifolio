@@ -34,15 +34,15 @@ html {
 }
 
 .foto-perfil {
-   position: absolute;
-   margin-top: 22%;
    border-radius: 75px;
    width: 150px;
    height: 150px;
-   left: 45%;
 }
 
-/* Vê se conserta a distância da foto e parágrafos, não está responsivo*/
+.icone {
+   width: 30px;
+   height: 30px;
+}
 
 
 
