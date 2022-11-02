@@ -39,11 +39,13 @@ html {
    border-radius: 75px;
    width: 150px;
    height: 150px;
+   box-shadow: 10px -10px 10px lightblue;
+   margin-bottom: 1rem;
 }
 
 .icone {
-   width: 40px;
-   height: 40px;
+   width: 35px;
+   height: 35px;
 }
 
 .linha {
