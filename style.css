@@ -4,11 +4,8 @@ html {
    font-family: 'Josefin Sans', sans-serif;
 }
 
-.plano-de-fundo {
-  /* background-color: linear-gradient(180deg, #5DA7DB 0%, #81C6E8 50%, #7DE5ED 100%); */
-   background-image: url(img/fundo.png);
-   min-height: 100vh;
-   background-repeat: no-repeat;
+body {
+   background-image: url(img/fundo.jpg);
    background-size: cover;
 }
 
@@ -19,14 +16,13 @@ html {
 }
 
 .sobre-mim {
-   position: absolute;
    margin: 0 25%;
    color: white;
    text-align: center;
 }
 
 .sobre-mim p {
-   font-size: 1.2rem;
+   font-size: 1.4rem;
    text-align: center;
    margin-bottom: 1rem;
    line-height: 2rem;
@@ -45,13 +41,15 @@ html {
 }
 
 .icone {
+   margin-top: 10px;
    width: 35px;
    height: 35px;
+   border-radius: 8px;
 }
 
 .linha {
    width: 100%;
-   border-bottom: 1px solid black;
+   border-bottom: 1px solid white;
    margin: 1.2rem;
 }
 
@@ -69,7 +67,6 @@ nav a {
 /* Estilização página contato.html */
 
 .informacoes {
-   position: absolute;
    margin: 10% 33%;
    text-align: center;
    width: 30%;
@@ -80,7 +77,7 @@ p {
    text-align: center;
    margin-bottom: 1rem;
    line-height: 2rem;
-   color: #bbbbbb;
+   color: #28FFBF;
 }
 
 .texto-enfase {
