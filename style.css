@@ -87,36 +87,45 @@ p {
 
 /* Estilização Página Projetos */
 
+.projetos {
+   padding: 4rem;
+   display: flexbox;
+}
+
 h1 {
-   margin-top: 1rem;
+   margin: 1rem 0;
    font-size: 2rem;
-   margin-bottom: 1.5rem;
    color: white;
 }
 
-.lista-de-projetos {
-   width: 80%;
-   height: 70%;
-   margin: 0 auto;
-}
-
-.lista-de-projetos li {
-   display: inline-block;
-   border: 1px solid white;
-   text-align: center;
-   box-sizing: border-box;
-   width: 30%;
-   min-height: 40vh;
-   vertical-align: top;
-}
-
-.imagens-capa {
+.caixa-de-projetos {
    width: 90%;
-   height: 90%;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1rem;
+
 }
 
-li a {
-   color: white;
+.projeto {
+   height: 15rem;
+   width: 17rem;
+   background-color: aquamarine;
+   display: flex;
+   padding: 2rem;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.icones a {
+   font-size: 1.5rem;
    text-decoration: none;
+   color: black;
+}
+
+.projeto h2 {
+   font-size: 2rem;
+   font-weight: 900;
+   box-sizing: inherit;
 }
 
