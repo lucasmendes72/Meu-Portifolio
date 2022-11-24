@@ -171,16 +171,22 @@ h1 {
  .title {
    transform: translateZ(5rem);
    font-size: 1.5rem;
+   font-weight: 900;
+   margin-bottom: 3rem;
  }
  
  .subtitle {
    transform: translateZ(3rem);
+   font-weight: 400;
+   color: white;
  }
  
  .back {
    transform: rotateY(0.5turn);
    /* troque aqui pelo seu BG*/
-   background-color: #009bff;
+   background-image: url(img/trade-background.png);
+   background-size: cover;
+   background-repeat: no-repeat;
  }
  
  .descricao {
@@ -189,7 +195,7 @@ h1 {
  
  .descricao a {
    font-size: 2rem;
-   color: white;
+   color: black;
    margin: 5px;
  }
 
