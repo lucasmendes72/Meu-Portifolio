@@ -215,6 +215,171 @@ h1 {
    margin: 0 5px;
  }
 
+ /* Estilizando as novas estruturas para criar o slide*/
+
+.slider {
+   margin: 0 auto;
+   width: 900px;
+   height: 400px;
+   overflow: hidden;
+}
+
+.slides {
+   width: 300%;
+   height: 400px;
+   display: flex;
+}
+
+.slides input {
+   display: none;
+}
+
+.slide {
+   width: 20%;
+   position: relative;
+   transition: 2s;
+}
+
+.manual-navigation {
+   position: absolute;
+   width: 900px;
+   margin-top: -40px;
+   display: flex;
+   justify-content: center;
+}
+
+.manual-btn {
+   border: 2px solid white;
+   padding: 5px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+   margin-right: 1rem;
+}
+
+.manual-btn:hover {
+   background-color: white;
+}
+
+#radio1:checked ~ .first {
+   margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+   margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+   margin-left: -40%;
+}
+
+.navigation-auto div {
+   border: 2px solid #20a6ff;
+   padding: 5px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 1s;
+}
+
+.navigation-auto {
+   position: absolute;
+   width: 900px;
+   margin-top: 360px;
+   display: flex;
+   justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+   margin-right: 1rem;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+   background-color: white;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+   background-color: white;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+   background-color: white;
+}
+ /*Fim da estilização das novas estruturas de criação do slider*/
+
+/*Estilização Projeto Trade*/
+
+.projeto {
+   height: 15rem;
+   width: 17rem;
+   background-color: #74EBD5;
+   background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);         
+   display: flex;
+   padding: 2rem;
+   flex-direction: column;
+   justify-content: space-between;
+   border-radius: 5px;
+}
+
+.projeto:hover {
+   box-shadow: 20px 20px 20px;
+   transform: scale(1.02);
+   transition: 1s;
+}
+ 
+ .content {
+   text-align: center;
+   position: relative;
+   transition: all 2.25s;
+   padding: 7rem;
+   transform-style: preserve-3d;
+   border-radius: 10px;
+ }
+ 
+ .projeto:hover .content {
+   transform: rotateY(0.5turn);
+ }
+ 
+ .front,
+ .back {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   padding: 2em;
+   transform-style: preserve-3d;
+   backface-visibility: hidden;
+ }
+ 
+ .title {
+   transform: translateZ(5rem);
+   font-size: 1.5rem;
+   font-weight: 900;
+   margin-bottom: 3rem;
+ }
+ 
+ .subtitle {
+   transform: translateZ(3rem);
+   font-weight: 400;
+   color: white;
+ }
+ 
+ .back {
+   transform: rotateY(0.5turn);
+   border-radius: 5px;
+ }
+
+ .back-trade {
+   background-image: url(img/trade-background.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+/*Fim Estilização Projeto Trade*/
+
+
 .page-bottom {
    width: 70%;
    margin: 2rem auto;
