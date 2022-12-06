@@ -33,11 +33,12 @@ body {
 }
 
 .foto-perfil {
-   border-radius: 75px;
+   border-radius: 80px 20px 70px 20px;
    width: 150px;
-   height: 150px;
+   height: 320px;
    box-shadow: 10px -10px 10px lightblue;
    margin-bottom: 1rem;
+   z-index: 2;
 }
 
 .icone {
