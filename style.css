@@ -90,10 +90,6 @@ p {
    font-size: 1.5rem;
 }
 
-.texto-enfase:hover, p:hover {
-   transform: scale(1.2);
-}
-
 /* Estilização Página Projetos */
 
 .projetos {
@@ -419,5 +415,58 @@ h1 {
    display: flex;
    margin: 2rem auto;
    justify-content: center;
+}
+
+/* ---------------- Alterações Responsivas ------------------ */
+
+@media screen and (max-device-width: 480px){
+   /* Página index.html */
+
+.sobre-mim {
+   margin: 0 10%;
+}
+
+.menus li {
+   padding: 0 0.4rem;
+}
+
+   /* Página contato.html */
+
+.informacoes {
+   width: 80%;
+   margin: 50% auto;
+}
+
+   /* Página projetos.html */
+
+.projetos {
+   padding: 2rem;
+}
+
+.slider {
+   width: 82%;
+   margin: 0 auto;
+}
+
+.slide {
+   width: 35%;
+}
+
+#radio1:checked ~ .first {
+   margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+   margin-left: -35%;
+}
+
+#radio3:checked ~ .first {
+   margin-left: -70%;
+}
+
+.manual-navigation, .navigation-auto {
+   width: 82%;
+}
+
 }
 
