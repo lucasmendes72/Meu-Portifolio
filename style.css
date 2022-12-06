@@ -379,10 +379,44 @@ h1 {
  }
 /*Fim Estilização Projeto Trade*/
 
-
 .page-bottom {
    width: 70%;
    margin: 2rem auto;
    text-align: center;
+}
+
+/* Estilização Página pagina-trade.html */
+
+.mostra-video {
+   width: 90%;
+   display: flex;
+   margin: 2rem auto;
+   justify-content: center;
+}
+
+.projeto-link {
+   width: 80%;
+   margin: 3rem auto;
+}
+
+.projeto-link h2 {
+   font-size: 2rem;
+   color: white;
+}
+
+.projeto-link i {
+   font-size: 5rem;
+   color: white;
+   transition: 2s;
+}
+
+.projeto-link i:hover {
+   color: #ebd036;
+}
+
+.icone-link {
+   display: flex;
+   margin: 2rem auto;
+   justify-content: center;
 }
 
