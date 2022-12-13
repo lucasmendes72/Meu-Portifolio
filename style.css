@@ -82,12 +82,39 @@ body {
 
 /* Botão fim */
 
-/*.abre-certificacoes {
+.certificados {
    width: 70%;
-   height: 2rem;
-   background-color: #28FFBF;
-   margin-bottom: 2rem;
-}*/
+   display: none;
+   height: auto;
+   position: absolute;
+   text-align: center;
+   background-color: #20a6ff;
+   top: 10%;
+   left: 15%;
+   right: 15%;
+   z-index: 2;
+   margin: 1rem;
+   border-radius: 15px;
+}
+
+.fecha-div {
+   position: absolute;
+   left: 90%;
+   z-index: 3;
+   padding: 1rem;
+   background-color: #ebd036;
+}
+
+.teste {
+   opacity: 0.1;
+}
+
+.img-certificado {
+   position: relative;
+   width: 80%;
+   display: inline-block;
+   text-align: center;
+}
 
 .foto-e-redes-sociais {
    position: relative;
