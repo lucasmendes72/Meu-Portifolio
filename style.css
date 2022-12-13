@@ -29,6 +29,66 @@ body {
    line-height: 2rem;
 }
 
+/* Estilo do Botão  */
+.abre-certificacoes {
+   --color: #0bc06c;
+   font-family: inherit;
+   display: inline-block;
+   font-weight: 400;
+   margin-bottom: 3rem;
+   width: 70%;
+   height: 3rem;
+   line-height: 2.5em;
+   position: relative;
+   overflow: hidden;
+   border: 2px solid var(--color);
+   transition: color .5s;
+   z-index: 1;
+   font-size: 20px;
+   border-radius: 15px;
+   font-weight: 500;
+   color: var(--color);
+  }
+  
+  .abre-certificacoes:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   background: var(--color);
+   height: 150px;
+   width: 200px;
+   border-radius: 50%;
+  }
+  
+  .abre-certificacoes:hover {
+   color: #fff;
+  }
+  
+  .abre-certificacoes:before {
+   top: 100%;
+   left: 100%;
+   transition: all .7s;
+  }
+  
+  .abre-certificacoes:hover:before {
+   top: -30px;
+   left: -30px;
+  }
+  
+  .abre-certificacoes:active:before {
+   background: #5bebc7;
+   transition: background 0s;
+  }
+
+/* Botão fim */
+
+/*.abre-certificacoes {
+   width: 70%;
+   height: 2rem;
+   background-color: #28FFBF;
+   margin-bottom: 2rem;
+}*/
+
 .foto-e-redes-sociais {
    position: relative;
 }
