@@ -299,6 +299,12 @@ h1 {
    background-size: cover;
    background-repeat: no-repeat;
  }
+
+ .back-cronometro {
+   background-image: url(img/cronometro-background.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
  
  .links {
    transform: translateZ(3rem);
