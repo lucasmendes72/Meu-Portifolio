@@ -31,6 +31,7 @@ body {
 
 /* Estilo do Botão  */
 .abre-certificacoes {
+   cursor: pointer;
    --color: #0bc06c;
    font-family: inherit;
    display: inline-block;
@@ -61,7 +62,7 @@ body {
   }
   
   .abre-certificacoes:hover {
-   color: #fff;
+   color: rgb(8, 1, 1);
   }
   
   .abre-certificacoes:before {
@@ -88,11 +89,10 @@ body {
    height: auto;
    position: absolute;
    text-align: center;
-   background-color: #20a6ff;
    top: 10%;
    left: 15%;
    right: 15%;
-   z-index: 2;
+   z-index: 5;
    margin: 1rem;
    border-radius: 15px;
 }
@@ -100,9 +100,19 @@ body {
 .fecha-div {
    position: absolute;
    left: 90%;
-   z-index: 3;
-   padding: 1rem;
-   background-color: #ebd036;
+   top: -2.2rem;
+   z-index: 6;
+   color: rgb(173, 35, 10);
+   font-size: 2rem;
+   background: none;
+   border-radius: 15px;
+   border: none;
+}
+
+.fecha-div:hover {
+   color: red;
+   box-shadow: red 5px 5px 5px;
+   cursor: pointer;
 }
 
 .teste {
