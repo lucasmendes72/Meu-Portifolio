@@ -576,36 +576,28 @@ h1 {
 }
 
 .slider {
-   width: 82%;
-   margin: 0 auto;
+   width: 90%;
+   margin: 2% auto;
+   height: auto;
 }
 
 .slides {
-   width: auto;
+   width: 400%;
+   height: auto;
+   flex-direction: column;
 }
 
 .slide {
    width: 100%;
+   margin: 2rem auto;
 }
 
-#radio1:checked ~ .first {
-   margin-left: 0;
-}
-
-#radio2:checked ~ .first {
-   margin-left: -100%;
-}
-
-#radio3:checked ~ .first {
-   margin-left: -200%;
-}
-
-#radio4:checked ~ .first {
-   margin-left: -300%;
+#radio1, #radio2, #radio3, #radio4 {
+   display: none;
 }
 
 .manual-navigation, .navigation-auto {
-   width: 82%;
+   display: none;
 }
 
 .page-bottom {
