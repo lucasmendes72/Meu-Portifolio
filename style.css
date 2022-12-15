@@ -549,6 +549,19 @@ h1 {
    padding: 0 0.4rem;
 }
 
+.certificados {
+   width: 90%;
+   left: 0%;
+}
+
+.img-certificado {
+   width: 100%;
+}
+
+.fecha-div {
+   left: 92%;
+}
+
    /* Página contato.html */
 
 .informacoes {
@@ -567,8 +580,12 @@ h1 {
    margin: 0 auto;
 }
 
+.slides {
+   width: auto;
+}
+
 .slide {
-   width: 35%;
+   width: 100%;
 }
 
 #radio1:checked ~ .first {
@@ -576,11 +593,15 @@ h1 {
 }
 
 #radio2:checked ~ .first {
-   margin-left: -35%;
+   margin-left: -100%;
 }
 
 #radio3:checked ~ .first {
-   margin-left: -70%;
+   margin-left: -200%;
+}
+
+#radio4:checked ~ .first {
+   margin-left: -300%;
 }
 
 .manual-navigation, .navigation-auto {
